@@ -66,10 +66,10 @@ db.once('open', async () => {
   await User.deleteMany();
 
   await User.create({
-    firstName: 'Pamela',
-    lastName: 'Washington',
-    cellPhone:'123-456-7890',
-    email: 'pamela@testmail.com',
+    firstName: 'Carol',
+    lastName: 'Wargo',
+    cellPhone:'443-771-1726',
+    email: 'carol@gmail.com',
     password: 'password12345',
     orders: [
       {
@@ -79,10 +79,10 @@ db.once('open', async () => {
   });
 
   await User.create({
-    firstName: 'Elijah',
-    lastName: 'Holt',
-    cellPhone:'123-456-7891',
-    email: 'eholt@testmail.com',
+    firstName: 'Corey',
+    lastName: 'Wargo',
+    cellPhone:'443-771-1708',
+    email: 'cw14094@gmail.com',
     password: 'password12345'
   });
 

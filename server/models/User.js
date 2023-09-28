@@ -24,12 +24,13 @@ const userSchema = new Schema({
     type: String,
     validate: {
       validator: function(v) {
-        return /\d{10}/.test(v); // Assuming you want a 10-digit phone number
+        return /^\d{3}-\d{3}-\d{4}$/.test(v); // Allowing format XXX-XXX-XXXX
       },
       message: props => `${props.value} is not a valid phone number!`
     },
-    required: [true, 'Cell phone number is required']
+    required: [false, 'By entering cellphone number you agree to receive text messages from 301CATCHING & affiliates.']
   },
+  
   password: {
     type: String,
     required: true,
