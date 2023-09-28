@@ -19,6 +19,7 @@ db.once('open', async () => {
       description:
         'Group Catching Sessions: blocking, framing, throwing, stance and more!',
       category: categories[1]._id,
+      image: 'cookie-tin.jpg',
       price: 250.00,
       quantity: 200
     },
@@ -26,7 +27,8 @@ db.once('open', async () => {
       name: 'Winter Group Sessions #2',
       description:
         'Group Catching Sessions: blocking, framing, throwing, stance and more!',
-      category: categories[1]._id,
+        image: 'cookie-tin.jpg',
+        category: categories[1]._id,
       price: 250.00,
       quantity: 200
     },
@@ -34,7 +36,8 @@ db.once('open', async () => {
       name: 'Individual Session: Initial Evaluation',
       description:
         'See where you are and where you need to be: 301Catching Evaluation, set goals, expose weaknesses and offer solutions.',
-      category: categories[0]._id,
+        image: 'cookie-tin.jpg',
+        category: categories[0]._id,
       price: 100.00,
       quantity: 500
     },
@@ -42,7 +45,8 @@ db.once('open', async () => {
       name: 'Individual Session: Progress Evaluation',
       description:
         'Check-In on your progress: 301Catching Progress Evaluation.',
-      category: categories[0]._id,
+        image: 'cookie-tin.jpg',
+        category: categories[0]._id,
       price: 100.00,
       quantity: 500
     },
@@ -50,7 +54,8 @@ db.once('open', async () => {
       name: 'Individual Session: Game Ready Evaluation',
       description:
         'Simulated game: 301Catching game simulation helps to mentally prepare and tests instinct behind the plate.',
-      category: categories[0]._id,
+        image: 'cookie-tin.jpg',
+        category: categories[0]._id,
       price: 100.00,
       quantity: 500
     },
