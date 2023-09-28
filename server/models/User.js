@@ -20,6 +20,16 @@ const userSchema = new Schema({
     required: true,
     unique: true
   },
+  cellPhone: {
+    type: String,
+    validate: {
+      validator: function(v) {
+        return /\d{10}/.test(v); // Assuming you want a 10-digit phone number
+      },
+      message: props => `${props.value} is not a valid phone number!`
+    },
+    required: [true, 'Cell phone number is required']
+  },
   password: {
     type: String,
     required: true,
