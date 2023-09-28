@@ -34,7 +34,7 @@ export const ADD_USER = gql`
     $firstName: String!
     $lastName: String!
     $email: String!
-    cellPhone: $cellPhone
+    $cellPhone: $cellPhone
     $password: String!
   ) {
     addUser(
