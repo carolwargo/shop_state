@@ -12,6 +12,7 @@ function Signup(props) {
     event.preventDefault();
     const mutationResponse = await addUser({
       variables: {
+        cellPhone: formState.cellPhone,
         email: formState.email,
         password: formState.password,
         firstName: formState.firstName,
@@ -66,6 +67,18 @@ function Signup(props) {
             onChange={handleChange}
           />
         </div>
+
+        <div className="flex-row space-between my-2">
+          <label htmlFor="cellPhone">Cell Phone:</label>
+          <input
+            placeholder="cell phone number"
+            name="cellPhone"
+            type="cellPhone"
+            id="cellPhone"
+            onChange={handleChange}
+          />
+        </div>
+        
         <div className="flex-row space-between my-2">
           <label htmlFor="pwd">Password:</label>
           <input
