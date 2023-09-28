@@ -71,7 +71,7 @@ function Signup(props) {
         <div className="flex-row space-between my-2">
           <label htmlFor="cellPhone">Cell Phone:</label>
           <input
-            placeholder="cell phone number"
+            placeholder="(xxx) xxx-xxxx)"
             name="cellPhone"
             type="cellPhone"
             id="cellPhone"
