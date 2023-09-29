@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+//PRODUCT are for indivdual camp sessions (ex: winter camp, week..)
 const { Schema } = mongoose;
 
 const productSchema = new Schema({

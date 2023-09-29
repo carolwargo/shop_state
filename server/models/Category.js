@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+//CATEGORY include Individual & Group
 const { Schema } = mongoose;
 
 const categorySchema = new Schema({

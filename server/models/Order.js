@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+//ORDER are cart items (all the sessions in the cart)
 const { Schema } = mongoose;
 
 const orderSchema = new Schema({
